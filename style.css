@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 2rem;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.materia {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.materia.aprobada {
+  background: #a3e4a3;
+  text-decoration: line-through;
+  border-color: #2ecc71;
+}
